@@ -1,0 +1,156 @@
+.top-content {
+  background-image: url("../img/photo01.png");
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 150px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-content strong {
+  display: block;
+  color: #fff;
+  font-size: 30px;
+}
+
+.section-content {
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+#about {
+  width: 1044px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#about .description {
+  margin-left: 40px;
+}
+
+#about .description h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#about .description strong {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#about .description p {
+  margin-bottom: 10px;
+}
+
+#language {
+  background-color: #D3D3D3;
+  width: 100%;
+  height: auto;
+}
+
+#language .language-container {
+  width: 940px;
+  margin: auto;
+  text-align: center;
+}
+
+#language .language-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#language .language-container .language-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#language .language-container .language-list .language-content {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+}
+
+#language .language-container .language-list .language-content img {
+  width: 150px;
+  height: 150px;
+  margin: 25px auto 10px auto;
+}
+
+#language .language-container .language-list .language-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#language .language-container .language-list .language-content p {
+  width: 245px;
+  text-align: left;
+  margin: 0 auto 20px auto;
+}
+
+#course {
+  text-align: center;
+}
+
+#course h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#course .course-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#course .course-list .course-item {
+  width: 300px;
+  height: 200px;
+  -webkit-box-shadow: 3px 3px 6px #00000029;
+          box-shadow: 3px 3px 6px #00000029;
+  border-radius: 8px;
+}
+
+#course .course-list .course-item h3 {
+  margin: 33px auto 20px auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#course .course-list .course-item p {
+  width: 242px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
